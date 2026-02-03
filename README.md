@@ -2,14 +2,16 @@
 
 1. Ensure Python `3.12` is installed (matches `.python-version`).
 2. Install `uv` via pip:
-
-```bash
-python -m pip install --upgrade pip
-python -m pip install uv
-```
-
+    ```bash
+    python -m pip install --upgrade pip
+    python -m pip install uv
+    ```
 3. Sync dependencies:
 
-```bash
-uv sync
-```
+    ```bash
+    uv sync
+    ```
+
+## Notes
+
+* To run `individual_assignments/ia_1.ipynb`, obtain an API key from data.gov.sg and store in `.env` file at repository root.
